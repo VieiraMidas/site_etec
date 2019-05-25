@@ -1,20 +1,23 @@
 
 .tabela {
-	background-color: #0b6d8d;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	
+	background: #0b6d8d url("menubg-blue.png") repeat-x;
 }
 
 .tabela a{
 	color: white;
+	text-decoration: none;
 }
 
 .tabela li {
 	display: inline-block;
 	list-style-type: none;
-}	
+	padding: 13px 20px 13px 20px;
+	border-left: 1px solid #258FC1;
+}
 
+.tabela li:hover{
+	background-color: #0b506c;
+}
 .container {
 	width: 80%;
 	margin: auto;
